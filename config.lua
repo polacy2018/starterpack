@@ -3,8 +3,8 @@ Config = {
         {databasename = 'bread', count = 1},
         {databasename = 'water', count = 2},
     },
-
+    
     OldESX = false,
-
-    Config.NotificationSystem = 'ESX' -- or mythic_notify
+    Config.NotificationSystem = 'ESX', -- or mythic_notify
+    Config.Webhook = 'WEBHOOK HERE'
 }
