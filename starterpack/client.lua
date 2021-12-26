@@ -11,7 +11,7 @@ end)
 
 RegisterCommand("starterpack", function()
     local last = GetGameTimer() - antispam
-    if last > 5 then
+    if last > 5000 then -- 5 seconds
         antispam = GetGameTimer()
         ESX.TriggerServerCallback('odbierz:check', function(odebrane)
             if odebrane then 
